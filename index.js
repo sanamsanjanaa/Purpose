@@ -20,7 +20,7 @@ var commentRoutes = require("./routes/Answers");
 //connecting to the database
 var url =
   process.env.DATABASEURL ||
-  "mongodb+srv://test:test123@purpose.298byca.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://test61:test612021@resumebuilder.huv2a.mongodb.net/mini?retryWrites=true&w=majority";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.set("view engine", "ejs");
